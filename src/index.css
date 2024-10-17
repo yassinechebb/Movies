@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+body{
+  
+}
+.bgContainer{
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit :cover;
+}
+.containervid {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  top: 108%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff7a;
+}
+h2.wlc{
+  font-size: 50px;
+  font-weight: 700;
+}
+h1.title{
+  font-size: 70px;
+  font-weight: 900;
+}
+.overlay{
+  position: absolute;
+  top: 64%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  
+}
